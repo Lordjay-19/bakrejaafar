@@ -13,40 +13,39 @@ img {
 .header-image {
     display: inline-block;
     margin-left: 20px;
-    padding-top: 15px;
+    padding-top: 8px;
 }
 
 .header-name {
     display: inline-block;
     color: black;
     font-family: sans-serif;
-    margin-left: 30px;
-    padding-top: 5px;
+    margin-left: 25px;
+    padding-top: 20px;
 }
 
-.header {
-    background-color: white;
-    display: flex;
-    border-radius: 10px;
-    height: 80px;
-    position: ;
+.header-name h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 27px;
 }
 
-header {
-    margin-top: 0px;
+.header-name:hover {
+    color: black;
+    cursor: pointer;
 }
 
-.navigation-bar {
+.navigation {
     display: inline-block;
-    margin: 15px 0px 0px 500px;
-
+    margin-left: 450px;
+    padding-top: 10px;
 }
 
 .navigation li {
     display: inline-block;
     list-style: none;
     margin-left: 15px;
-    transition: color 0.3s;
+    padding: auto;
 }
 
 .header a {
@@ -54,12 +53,25 @@ header {
     color: black;
 }
 
-.header a:hover {
+.navigation a:hover {
     color: rgb(14, 137, 194);
+    transition: color 0.2s;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 2px 4px rgb(232, 230, 230);
 }
 
 section {
     height: 500px;
+    padding-top: 70px;
 }
 
 
