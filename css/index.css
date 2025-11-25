@@ -1,11 +1,19 @@
 body {
+    background-color: whitesmoke;
     margin: 0;
     padding: 0;
 }
+
 img {
     height: 50px;
     width: 50px;
     border-radius: 25px;
+}
+
+.header-image {
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 15px;
 }
 
 .header-name {
@@ -13,30 +21,45 @@ img {
     color: black;
     font-family: sans-serif;
     margin-left: 30px;
+    padding-top: 5px;
 }
-.header{
-    background-color: white; 
-    display: flex; 
-    border: 1px solid black;
+
+.header {
+    background-color: white;
+    display: flex;
     border-radius: 10px;
+    height: 80px;
+    position: ;
 }
-.navigation-bar{
+
+header {
+    margin-top: 0px;
+}
+
+.navigation-bar {
     display: inline-block;
-    margin-left: 50px;
-    
+    margin: 15px 0px 0px 500px;
+
 }
-.navigation li{
+
+.navigation li {
     display: inline-block;
     list-style: none;
     margin-left: 15px;
     transition: color 0.3s;
 }
-.header a{
+
+.header a {
     text-decoration: none;
     color: black;
 }
+
 .header a:hover {
     color: rgb(14, 137, 194);
+}
+
+section {
+    height: 500px;
 }
 
 
