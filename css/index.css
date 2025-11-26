@@ -136,7 +136,7 @@ section {
 }
 
 .education {
-    background: linear-gradient(90deg, rgb(69, 77, 117), rgba(143, 159, 238, 0.8));
+    background-color: rgb(143, 159, 238);
     color: rgb(3, 3, 15);
     height: auto;
     padding-bottom: 40px;
@@ -149,7 +149,7 @@ section {
 }
 
 .certifications {
-    background-color: rgb(143, 159, 238);
+    background: linear-gradient(90deg, rgb(3, 3, 15), rgba(1, 6, 47, 0.8));
     color: white;
     height: auto;
     border-top: 1px solid rgb(3, 3, 15);
@@ -160,11 +160,27 @@ section {
     list-style-type: square;
     line-height: 25px;
     font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.certifications li {
+    margin-bottom: 10px;
 }
 
 .certifications a {
-    color: rgb(14, 137, 194);
+    color: rgb(160, 188, 230);
     text-decoration: none;
+}
+
+.certifications a:hover {
+    font-weight: bold;
+}
+
+hr {
+    height: 0.5px;
+    background-color: rgb(160, 188, 230);
+    border-color: rgb(160, 188, 230);
+    margin: 0 80px;
 }
 
 .contact-me {
