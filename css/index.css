@@ -153,7 +153,7 @@ section {
     color: white;
     height: auto;
     border-top: 1px solid rgb(3, 3, 15);
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
 .certifications ul {
@@ -180,12 +180,56 @@ hr {
     height: 0.5px;
     background-color: rgb(160, 188, 230);
     border-color: rgb(160, 188, 230);
-    margin: 0 80px;
+    margin: 0 80px 0px 80px;
 }
 
 .contact-me {
     background: linear-gradient(90deg, rgb(3, 3, 15), rgba(1, 6, 47, 0.8));
-    color: rgb(3, 3, 15);
+    color: white;
     height: auto;
-    padding-bottom: 40px;
+    padding: 10px 50px 30px 50px;
+}
+
+.contact-me p {
+    font-size: 20px;
+}
+
+.social-links {
+    color: rgb(160, 188, 230);
+    text-decoration: none;
+}
+
+.contact-me a:hover {
+    font-weight: bold;
+}
+
+.footer-social-link {
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+.footer-social-link:hover {
+    transform: scale(1.1);
+    background-color: rgba(77, 79, 89, 0.8);
+    box-shadow: 0px 2px 2px rgb(100, 99, 99);
+}
+
+.footer-social-link:active {
+    transform: scale(0.9);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
